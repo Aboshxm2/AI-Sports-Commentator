@@ -11,10 +11,9 @@ DEFAULT_PROMPT = """
 
 def main():
     parser = argparse.ArgumentParser(description='Generate sports commentary from video')
-    parser.add_argument('-G', '--google_api_key',default="AIzaSyDwXp7Y_VH41mnYueLZFUcqkT_C3sF4jF0",
+    parser.add_argument('-G', '--google_api_key',
                        help='Google GenAI API key')
-    parser.add_argument('-E', '--eleven_api_key', default="sk_7f372474effb6eac7f8550398ed9efb81fb03066879c039e",
-
+    parser.add_argument('-E', '--eleven_api_key',
                        help='ElevenLabs API key')
     parser.add_argument('-i', '--input_video', default="input.mp4",
                        help='Input video file path')
