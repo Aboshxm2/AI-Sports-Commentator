@@ -1,7 +1,3 @@
-Here's a short and clear `README.md` file for your project:
-
----
-
 # ⚽ AI Sports Commentator
 
 Generate dynamic, real-time-style football commentary from video clips using Google GenAI and ElevenLabs TTS.
